@@ -12,10 +12,27 @@
 <meta name="Robots" CONTENT="All">
 <style>
  p { font-family: times, serif; font-size: 12pt; font color="#000000"; align: center }
- p.banner { margin: 0.0in 0.0in 0.0in }
- p.intro { margin: 0.0in 0.5in 0.0in }
- p.keys { margin: 0.0in 0.75in 0.2in }
+ p.banner { margin: 0.1in 0.0in 0.1in; display:none; }
+ p.intro { margin: 0.0in 0.2in 0.0in }
+ p.keys { margin: 0.0in 0.2in 0.2in }
  h1 { font-family: times, serif; font-size: 12pt; font-face: Bold; font color="#000000"; margin: 0.0in 0.5in 0.0in }
+ .horizontalscroll{
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+ @media only screen and (min-width: 762px) {
+body { 
+	width: 762px;
+	margin:0 auto;
+}
+
+}
+@media only screen and (min-width: 500px) {
+p.banner{
+display:block;
+text-align:center;
+}
+}
 </style>
 </head>
 <body>
@@ -25,8 +42,9 @@
 <br>
 <h1 align="center">
 <a href="http://www.unabombers.com/">HOME</a></h1>
-<p class="banner" align="center"><a href="http://www.Unabombers.com/#Nathan">
-<img border="0" src="images/Cissna.gif" width="594" height="792"></a></p>
+<div class="horizontalscroll">
+<p class="intro" align="center"><a href="http://www.Unabombers.com/#Nathan">
+<img border="0" src="images/Cissna.gif" width="594" height="792"></a></p></div>
 <br>
 <h1 align="center">
 <a href="http://www.unabombers.com/">HOME</a></h1>
@@ -36,7 +54,8 @@
  two other associates, polygraph results from Gates and Associates, and the identification of
  Nathan Salmon as the stepson of Ray Dettling. The Nathan R note may ultimately prove to be the 
  wellspring of the single largest scandal in American History. </p>
-<p class="banner" align="center">SITE KEYS: Allegheny College 1974 Kaldron Yearbook Handwriting Analysis for Unabomber Nathan
+ 
+<p class="intro" align="center">SITE KEYS: Allegheny College 1974 Kaldron Yearbook Handwriting Analysis for Unabomber Nathan
 Terrorist Bomb Incendiary attack Fire stick Firestick Saratoga Polson Mt
 Allegheny College Freeman Roundup Gators bomb Unabomber FBI CIA NSA Incendiary
 Device Firestick Allegheny College 1974 Kaldron Yearbook Handwriting Analysis 
