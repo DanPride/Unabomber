@@ -17,11 +17,32 @@
  p.story { margin: 0.2in 0.25in 0.1in }
  p.detail { margin: 0.0in 1.0in 0.0in }
  p.list { margin: 0.0in 0.25in 0.1in }
+ .horizontalscroll{
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+@media only screen and (min-width: 762px) {
+body { 
+	width: 762px;
+	margin:0 auto;
+}
+
+}
+@media only screen and (min-width: 500px) {
+p.banner{
+display:block;
+text-align:center;
+}
+}
 </style>
 </head>
 <body>
-<p align="Center">15297 Bohlman Road Garage Diagram circa 1992
-<br>
-<img border="0" src="images/GarageDiagram.gif" width="700" height="542"></p>
+<p align="Center">15297 Bohlman Road Garage Diagram circa 1992</p>
+<div class="horizontalscroll">
+<p align="Center"><img border="0" src="images/GarageDiagram.gif" width="700" height="542"></p></div>
+<p align="Center">During these events the house at 15297 Bohlman Road was listed for Sale. 
+Numerous Realtors would visit the property, often taking snapshots of the property. 
+It is likely that photos of the garage displaying numerous bomb parts from the Unabomber Bombings may exist in local realtor files.
+Caution must be advised for any possesor of such photos given the violent history of the case for insiders.</p>
 </body>
 </html>
