@@ -1,0 +1,38 @@
+body{
+background-color:white;
+}
+a:visited {color: purple;}
+a:link {color: blue;}
+h1 { font-family: times, serif; font-size: 18pt; font-face: Bold; margin="0.5 0 0.5 0"; text-align:center; }
+h2 { font-family: times, serif; font-size: 16pt; font-face: Bold; margin="0.5 0 0.5 0"; text-align:center; }
+h3 { font-family: times, serif; font-size: 14pt; font-face: Bold; margin="0.5 0 0.5 0"; text-align:center; }
+p { font-family: times, serif; font-size: 12pt; text-align:center;  }
+p.copy {font-size:9.0pt; font-family:Helvetica; margin: 0.0in 0.5in 0.1in } 
+p.intro {margin: 0.0in 0.4in 0.0in; text-align:center }
+p.enter {font-size: 24pt; font-face: Bold; margin: 0.0in 0.0in 0.0in; text-align:center  }
+p.image { margin: 0.1in 0.0in 0.1in; text-align:center ;  }
+p.banner { margin: 0.1in 0.0in 0.1in; display:none; }
+p.keys { margin: 0.0in 0.25in 0.1in; text-align:center; }
+p.lead { font-size:10.0pt; font-family:Helvetica; margin: 0.0in 0.5in 0.0in }
+p.linklist { margin: 0.0in 0.0in 0.0in; text-align:center; }
+p.story { font-size:10.0pt; font-family:Helvetica; margin: 0.0in 0.5in 0.2in } 
+.center {
+    margin: auto;
+    padding: 10px;
+}
+.horizontalscroll{
+	  overflow-x: scroll;
+	  overflow-y: hidden;
+	}
+@media only screen and (min-width: 762px) {
+body { 
+	width: 762px;
+	margin:0 auto;
+	}
+}
+@media only screen and (min-width: 500px) {
+p.banner{
+	display:block;
+	text-align:center;
+	}
+}
