@@ -11,20 +11,24 @@
 <meta name="Revisit-After" content="14 Days">
 <meta name="Robots" CONTENT="All">
 <style>
- p { font-family: times, serif; font-size: 12pt; font color="#000000"; align: center }
+body{
+ margin: auto;
+}
+ p { font-family: times, serif; font-size: 12pt; align:center; }
+ p.banner {  display:none; }
 h2 { 
  	font-family: times, serif; 
-	margin: 20 auto 80 auto;
+	margin: 0 auto;
 	text-align: center;
 	letter-spacing: 2px;
 }
 table{
 	 margin: 0 auto;
 	 border: 1px solid black;
-	 width: 80%;
+	 width: 90%;
 	 height: 100%;
 	 border-collapse: separate;
-     border-spacing: 10px;
+     border-spacing: 5px;
  }
  th{
  	border: 1px solid black;
@@ -38,14 +42,32 @@ table{
  	 margin: 0 auto;
 	 width: 468px;;
 	 height: 100%;
-	 text-align: center:
+	 text-align: center;
  }
+ .horizontalscroll{
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+@media only screen and (min-width: 762px) {
+body { 
+	width: 762px;
+	margin:0 auto;
+}
+
+}
+@media only screen and (min-width: 500px) {
+p.banner{
+	display:block;
+	text-align:center;
+}
+}
 </style>
 </head>
 <body>
-<p align="center"><a href="http://www.unabombers.com/">
-<img src="images/UBBannerAd.gif" border="2" width="468" height="60"></a><br>
-<a href="http://www.Unabombers.com/">Unabomber</a></p>
+<p class="banner"><a href="http://www.unabombers.com/">
+<img src="images/UBBannerAd.gif" border="2" width="468" height="60"></a></p>
+
+<h2 align="center"><a href="http://www.Unabombers.com/">Unabomber</a></h2>
 <h2 align="center"><b>VANPAC Bombing<br> Historical Listing of News Articles</b></h2>
 <table>
 <tr><td>DATE</td>

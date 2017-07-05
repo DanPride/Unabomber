@@ -29,10 +29,28 @@
  td{
  
  }
+ p.banner { margin: 0.1in 0.0in 0.1in; display:none; }
+.horizontalscroll{
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+@media only screen and (min-width: 762px) {
+body { 
+	width: 762px;
+	margin:0 auto;
+}
+
+}
+@media only screen and (min-width: 500px) {
+p.banner{
+	display:block;
+	text-align:center;
+}
+}
 </style>
 </head>
 <body>
-<p class="intro"><a href="SketchSources.htm">Return</a></p>
+<p class="intro"><a href="SketchSources.htm">Return</a><br></p>
 <p class="intro">Did Jeanne Boylan alter Kaczynski's photo to 
 compare to her sketch in her book? Slight distortion of the Vertical/Horizontal proportions and 
 other tiny modifications may make the Morph Source photo's nose 
@@ -45,6 +63,7 @@ claimed to be the same
 photo.<br>
 </p>
 <br>
+<div class="horizontalscroll">
 <table>
 <thead>
   <tr>
@@ -63,6 +82,7 @@ photo.<br>
   </tr>
    </tbody>
 </table>
+</div>
 <p class="intro">The reader is left to judge.</p>
 <p class="intro">
 <img border="0" alt="Morph Source photo of Kaczynski from Redacted.com" src="images/Index01B.gif" width="140" height="165">

@@ -10,15 +10,32 @@
 <meta name="Robots" CONTENT="All">
 <style>
  p { font-family: times, serif; font-size: 12pt; font color="#000000"; align: center }
- p.banner { margin: 0.0in 0.0in 0.0in }
  p.intro { margin: 0.0in 0.5in 0.0in }
  p.para { margin: 0.0in 0.5in 0.25in }
  p.keys { margin: 0.0in 0.75in 0.2in }
  h1 { font-family: times, serif; font-size: 12pt; font-face: Bold; font color="#000000"; margin: 0.0in 0.5in 0.0in }
+ p.banner { margin: 0.1in 0.0in 0.1in; display:none; }
+.horizontalscroll{
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+@media only screen and (min-width: 762px) {
+body { 
+	width: 762px;
+	margin:0 auto;
+}
+
+}
+@media only screen and (min-width: 500px) {
+p.banner{
+	display:block;
+	text-align:center;
+}
+}
 </style>
 </head>
 <body bgcolor=white lang=EN-US link=blue vlink=blue style='tab-interval:.5in'>
-<p class="intro" align="center">
+<p class="banner" align="center">
 <a href="http://www.unabombers.com/">
 <img src="http://www.unabombers.com/images/UBBannerAd.gif" border="2" width="468" height="60"></a>
 </p><br>

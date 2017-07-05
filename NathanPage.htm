@@ -20,12 +20,31 @@
  p.detail { margin: 0.0in 1.0in 0.0in }
  p.list { margin: 0.0in 0.25in 0.1in }
  h1 { font-family: times, serif; font-size: 12pt; font-face: Bold; font color="#000000"; margin: 0.0in 0.5in 0.0in }
+ .horizontalscroll{
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+@media only screen and (min-width: 762px) {
+body { 
+	width: 762px;
+	margin:0 auto;
+}
+
+}
+@media only screen and (min-width: 500px) {
+p.banner{
+display:block;
+text-align:center;
+}
+}
 </style>
 </head>
 <body>
 <p align="center">
 <a href="NathanRNote.htm">Handwriting Analysis</a></p>
+<div class="horizontalscroll">
 <p><a href="NathanRNote.htm">
-<img border="0" alt="Nathan R note with Handwriting Sample" src="images/NathanPage.gif" width="750" height="1059"></a></p>
+<img border="0" alt="Nathan R note with Handwriting Sample" src="images/NathanPage.gif" width="750" height="1059"></a></p></div>
+<br><br><br>
 </body>
 </html>

@@ -16,16 +16,23 @@
  p { font-family: times, serif; font-size: 12pt; font color="#000000"; align: center }
  p.quote { margin: 0.1in 0.2in 0.0in }
  p.photo { margin: 0.0in 0.2in 0.1in }
-
- .horizontalscroll{
-   overflow-x: scroll;
-   overflow-y: hidden;
+p.banner { margin: 0.1in 0.0in 0.1in; display:none; }
+.horizontalscroll{
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
- h1 { font-family: times, serif; font-size: 12pt; font-face: Bold; font color="#000000"; margin: 0.0in 0.5in 0.0in }
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 762px) {
 body { 
 	width: 762px;
 	margin:0 auto;
+}
+
+}
+@media only screen and (min-width: 500px) {
+p.banner{
+	display:block;
+	text-align:center;
+}
 }
 </style>
 </head>
@@ -54,9 +61,9 @@ line on the left side of the break (sketch) which exactly traces the jutting poi
 the photo's shadow (left side).<b> </b>Many other examples come to view when the 
 two are carefully examined side by side including the <a href="SketchBottom.htm">
 triple shadow lines on the neck in both the photo and the sketch</a>.</p>
-<div class="horizontalscroll">
-<p class="quote" align="center">
+
+<p class="banner" align="center">
 <img src="http://www.unabombers.com/images/UBBannerAd.gif" border="2" width="468" height="60"></p>
-</div>
+
 </body>
 </html>

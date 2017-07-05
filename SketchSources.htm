@@ -16,27 +16,36 @@ body{
 }
  p { font-family: times, serif; font-size: 12pt; font color="#000000"; align: center }
  p.quote { margin: 0.0in 0.25in 0.1in }
- p.intro { 
- 	margin: 10px auto;
- 	width: 40%;
- 	text-align:center;
- }
- h1 {  
- 	margin: 0 auto;
- 	text-align:center;
- 	}
- h2 {  
- 	margin: 0 auto; 
- 	text-align:center;
- 	}
+ p.intro { margin: 0 auto;text-align:center;}
+ h1 {  margin: 0 auto;text-align:center;}
+ h2 {  margin: 0 auto; text-align:center;}
+ 	p.banner { margin: 0.1in 0.0in 0.1in; display:none; }
+.horizontalscroll{
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+@media only screen and (min-width: 762px) {
+body { 
+	width: 762px;
+	margin:0 auto;
+}
+
+}
+@media only screen and (min-width: 500px) {
+p.banner{
+	display:block;
+	text-align:center;
+}
+}
 </style>
 </head>
 <body>
-<p class="intro">
+<p class="banner" align="center">
 <a href="http://www.unabombers.com/">
 <img src="http://www.unabombers.com/images/UBBannerAd.gif"  border="1" width="468" height="60"></a></p>
+
 <h2><a href="SketchMid.htm">The Morphed Sketch</a></h2>
-<h1>Welcome to 1984 a little bit late.</h1>
+<h2>Welcome to 1984 a little bit late.</h2>
 <p class="intro">
 The computer generated sketch and the photo it was based on have appeared 
 in print in a number of places (See below). They were widely available on 
@@ -127,8 +136,8 @@ against the very foundations of our Democracy and a beacon of future dangers we
 all face. The truth of this case MUST be exposed for the benefit of us all.<br>
 </p>
 <p class="intro"><a href="SketchMid.htm">Morph</a></p>
-<p class="intro">&nbsp;</p>
-<p class="intro">
-<img src="http://www.unabombers.com/images/UBBannerAd.gif" border="2" width="468" height="60"></p>
+<p class="banner" align="center">
+<a href="http://www.unabombers.com/">
+<img src="http://www.unabombers.com/images/UBBannerAd.gif"  border="1" width="468" height="60"></a></p>
 </body>
 </html>

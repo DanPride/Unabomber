@@ -12,16 +12,39 @@
 <meta name="Robots" CONTENT="All">
 <style>
  p { font-family: times, serif; font-size: 12pt; font color="#000000"; align: center }
- p.quote { margin: 0.0in 1.0in 0.1in }
-  p.return { margin: 0.1in 1.0in 0.0in }
+ p.quote { margin: 0.0in auto 0.1in }
+ p.para { margin: 0.0in 0.1in 0.1in }
+ p.return { margin: 0.1in 1.0in 0.0in }
  h1 { font-family: times, serif; font-size: 12pt; font-face: Bold; font color="#000000"; margin: 0.0in 0.5in 0.0in }
+ p.banner { margin: 0.1in 0.0in 0.1in; display:none; }
+.horizontalscroll{
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+@media only screen and (min-width: 762px) {
+body { 
+	width: 762px;
+	margin:0 auto;
+}
+
+}
+@media only screen and (min-width: 500px) {
+p.banner{
+	display:block;
+	text-align:center;
+}
+}
 </style>
 </head>
 <body>
 <br>
-<p class="quote" align="center">
-<a href="SketchMid.htm#LeftEye">
-<img border="0" alt="Morph representation of Photo window bars" src="images/SketchBars.gif" width="432" height="288"></a><br>
+<p class="banner" align="center"><a href="http://www.unabombers.com/">
+<img src="images/UBBannerAd.gif" border="2" width="468" height="60"></a></p>
+
+<div class="horizontalscroll">
+<p class="quote" align="center"><a href="SketchMid.htm#LeftEye">
+<img border="0" alt="Morph representation of Photo window bars" src="images/SketchBars.gif" width="432" height="288"></a></div><br>
+<p class="para" align="center">
 The window bars in the photo are the same color and consistency of the 
 hairline. The Photo hairline mimics the boundary of the hood. These two factors 
 resulted in the window bars being picked up by the morph process and included in 

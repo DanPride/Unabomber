@@ -13,19 +13,40 @@
 <meta name="Robots" CONTENT="All">
 <style>
  p { font-family: times, serif; font-size: 12pt; font color="#000000"; align: center }
- p.photo { margin: 0.0in 1.0in 0.0in }
+ p.photo { margin: 0.0in 0.1in 0.1in; text-align:center }
  h1 { font-family: times, serif; font-size: 12pt; font-face: Bold; font color="#000000"; margin: 0.0in 0.5in 0.0in }
+ p.banner { margin: 0.1in 0.0in 0.1in; display:none; }
+.horizontalscroll{
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+@media only screen and (min-width: 762px) {
+body { 
+	width: 762px;
+	margin:0 auto;
+}
+
+}
+@media only screen and (min-width: 500px) {
+p.banner{
+	display:block;
+	text-align:center;
+}
+}
 </style>
 </head>
 <body>
-<br><br>
+<br>
+<div class="horizontalscroll">
 <p class="photo" align="center">
 <a href="SketchMid.htm#LeftEye">
-<img border="0" alt="Morph reflects photo's facial nose lines" src="images/SketchNose.gif" width="540" height="234"></a><br>
+<img border="0" alt="Morph reflects photo's facial nose lines" src="images/SketchNose.gif" width="540" height="234"></a></p></div>
+
+<p class="photo">
 The left nose line is visible while the right is hidden in shadow and missing 
 in both the photo and the sketch. Traces of the shadow descending from the nose 
 in the photo can be seen in the corresponding darker coloration line on the 
-upper lip.</p>
+upper lip. (Trace the start using the middle of the nose - septum)</p>
 <h1 align="center"><a href="SketchMid.htm#LeftEye">RETURN</a></h1>
 </body>
 </html>

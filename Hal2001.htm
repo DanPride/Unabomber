@@ -13,20 +13,39 @@
 <style>
  p { font-family: times, serif; font-size: 12pt; font color="#000000"; align: center }
  p.movie {font-family: times, serif; font-size: 10pt; font-variant: small-caps; margin: 0.0in 0.5in 0.1in }
- p.reality { margin: 0.0in 1.0in 0.3in }
-  p.intro { margin: 0.0in 0.5in 0.0in }
+ p.reality { margin: 0.0in 0.2in 0.3in }
+ p.intro { margin: 0.0in 0.5in 0.0in }
  p.story { margin: 0.0in 0.75in 0.2in }
  p.detail { margin: 0.0in 1.0in 0.0in }
  p.list { margin: 0.0in 0.25in 0.1in }
  h1 { font-family: times, serif; font-size: 12pt; font-face: Bold; font color="#000000"; margin: 0.0in 0.25in 0.0in }
+ p.banner { margin: 0.1in 0.0in 0.1in; display:none; }
+p.keys { margin: 0.0in 0.25in 0.1in; text-align:center; }
+p.linklist { margin: 0.0in 0.0in 0.0in; text-align:center;  }
+.horizontalscroll{
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+@media only screen and (min-width: 762px) {
+body { 
+	width: 762px;
+	margin:0 auto;
+}
+
+}
+@media only screen and (min-width: 500px) {
+p.banner{
+display:block;
+text-align:center;
+}
+}
 </style>
 </head>
 <body>
-<p align="center">
+<p class="banner" align="center">
 <a href="http://www.unabombers.com/">
 <img src="http://www.unabombers.com/images/UBBannerAd.gif"  border="1" width="468" height="60"></a></p>
-<h1 align="center">
-<a href="http://www.unabombers.com/">HOME PAGE</a></h1>
+<h1 align="center"><a href="http://www.unabombers.com/">HOME PAGE</a></h1>
 <br>
 <h1 align="center">The FBI as the character HAL in 2001 <BR> A Space Odyssey comparison with reality</h1>
 <br>

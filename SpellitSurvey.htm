@@ -24,11 +24,9 @@
  width: 50%;
  }
  table{
-  text-align:left;
+  text-align:center;
   border:1px solid black;
-
-  width:50%;
-  margin: 10 auto 10 auto;
+  margin:auto;
  }
  th{
  padding: 7px;
@@ -40,8 +38,24 @@
  border:1px solid black;
  
  }
- 
- 
+ p.banner { margin: 0.1in 0.0in 0.1in; display:none; }
+.horizontalscroll{
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+@media only screen and (min-width: 762px) {
+body { 
+	width: 762px;
+	margin:0 auto;
+}
+
+}
+@media only screen and (min-width: 500px) {
+p.banner{
+	display:block;
+	text-align:center;
+}
+}
 </style>
 </head>
 <body>
@@ -86,6 +100,7 @@ are living in.
 <h1>The Mind Control Spelling Test</h1>
 <p>Ask someone to spell the following five words in order and watch 
 their reactions<br> See below for scoring and explanation</p>
+<p class="lead" align="center">
 <table>
 <tr>
 <td><b>Unadorned</b></td>
@@ -108,7 +123,7 @@ their reactions<br> See below for scoring and explanation</p>
 <td>Noun</td>
 <td>A famous terrorist</td>
 </tr>
-</Table>
+</table></p>
 <br>
 <p class="story"><b>Uni - Little or insignificant. Not worth thinking about. Funny like weenie.</b></p>
 <p class="story"><b>Una - of singular importance</b></p>

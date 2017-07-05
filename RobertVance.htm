@@ -11,18 +11,39 @@
 <meta name="Robots" CONTENT="All">
 <style>
  p { font-family: times, serif; font-size: 12pt; font color="#000000"; align: center }
- p.banner { margin: 0.0in 0.0in 0.1in }
+ p.intro { margin: 0.0in 0.0in 0.1in }
  h1 { font-family: times, serif; font-size: 12pt; font-face: Bold; font color="#000000"; margin: 0.0in 0.5in 0.0in }
+ p.banner { margin: 0.1in 0.0in 0.1in; display:none; }
+.horizontalscroll{
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+@media only screen and (min-width: 762px) {
+body { 
+	width: 762px;
+	margin:0 auto;
+}
+
+}
+@media only screen and (min-width: 500px) {
+p.banner{
+	display:block;
+	text-align:center;
+}
+}
 </style>
 </head>
 <body>
-<p class="banner" align="center">
+<br><br>
+<div class="horizontalscroll">
+<p class="intro" align="center">
 <a href="http://www.unabombers.com/#Stamps">
-<img border="0" alt="photo of American Hero Judge Robert Vance" src="images/Vance.jpg" width="500" height="381"></a></p>
-<p class="banner" align="center">
+<img border="0" alt="photo of American Hero Judge Robert Vance" src="images/Vance.jpg" width="500" height="381"></a></p></div>
+
+<p class="intro" align="center">
 The <span style="text-decoration: underline;"><b>Honorable</b></span> Judge Robert Vance<br>
 A True Unsung American Hero</p>
-<p class="banner" align="center">
+<p class="intro" align="center">
 <a href="http://www.unabombers.com/#Stamps">RETURN</a></p>
 </body>
 </html>
